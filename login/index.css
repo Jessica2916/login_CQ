@@ -1,0 +1,92 @@
+*{
+    color: purple;
+}
+
+section.login{
+    background: url("assets/codequeen.jpeg")  no-repeat center;
+    width: 600px;
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0,0,0.5);
+    overflow: hidden;
+}
+
+form{
+    background: aquamarine;
+    padding: 30px;
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    padding: 40px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+
+}
+h1{
+    font-family: "Madimi One", sans-serif;
+    text-align: center;
+    font-weight: normal;
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+label{
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgb(183, 0, 255);
+    font-family: "Permanent Marker", cursive;
+}
+
+input[type="text"], input[type="password"] {
+    width: 200px;
+    height: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #333;
+    font-size: 14px;
+    transition: .5s ease;
+    padding: 10px 0px; 
+}
+
+input:focus::placeholder {
+    border-bottom: 2px solid #e0c4;
+}
+button{
+    margin-top: 20px;
+    padding: 10px;
+    width: 150px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background:blueviolet;
+    color: rgb(14, 13, 13);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: .3s ease all;
+    font-weight: bold;
+    box-shadow: 2px 2px 0px #e0c445;
+    font-family: "Permanent Marker", cursive;
+
+}
+a{
+    font-family: "Permanent Marker", cursive;
+    display: inline-block;
+    color: rgb(11, 11, 17);
+    text-decoration: none;
+}
+
+button:hover{
+    background: #e0c445;
+    color: #333;
+}
+
+
+
